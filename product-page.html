@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!-- SIZE_OK: one static product page reusing the documented no-JavaScript primitives. -->
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Claude Code를 지휘관으로 두고 codex, GLM, Gemini를 워커 풀로 굴리는 멀티 에이전트 오케스트레이션 실전 운영 매뉴얼입니다."
+    >
+    <meta name="theme-color" content="#fbfcf8" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#11130f" media="(prefers-color-scheme: dark)">
+    <link
+      rel="canonical"
+      href="https://soul-sol.github.io/verified-automation-services/solo-team-claude-code-orchestration.html"
+    >
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="styles.css">
+    <title>혼자서 팀처럼 — Claude Code 오케스트레이션 실전</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+    <header class="topbar">
+      <nav class="container nav" aria-label="주요 메뉴">
+        <a class="wordmark" href="./">Verified Automation</a>
+        <div class="nav-links">
+          <a class="nav-link" href="#contents">목차 및 구성</a>
+          <a class="nav-link" href="#preview">무료 미리보기</a>
+          <a
+            class="nav-link nav-link-primary action action-primary"
+            href="[GUMROAD_URL]"
+            data-checkout-product="solo-team-claude-code-orchestration"
+            data-checkout-label="책 바로 구매"
+          >
+            구매하기
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="container hero">
+        <div class="hero-copy">
+          <p class="eyebrow">전자책 PDF + 복붙용 템플릿 ZIP</p>
+          <h1 class="product-heading">
+            <span class="phrase-line">Claude Code 하나로</span>
+            <span class="phrase-line">워커 5기를 지휘하세요</span>
+          </h1>
+          <p class="hero-lead">
+            Claude Max 한도는 기획과 검증에만 쓰고, 구현과 테스트는
+            codex, GLM, Gemini가 백그라운드에서 병렬 처리하도록 만드는
+            실전 운영 매뉴얼입니다.
+          </p>
+          <p class="english-summary" lang="en">
+            A field manual for running one Claude Code session as the commander of a worker pool.
+          </p>
+          <div class="hero-actions">
+            <a class="action action-primary" href="#preview">무료 자료 먼저 보기</a>
+            <a
+              class="action action-secondary"
+              href="[GUMROAD_URL]"
+              data-checkout-product="solo-team-claude-code-orchestration"
+              data-checkout-label="USD 14 바로 구매"
+            >
+              USD 14 전체 구매
+            </a>
+          </div>
+        </div>
+
+        <figure class="hero-media code-showcase">
+          <div class="code-window">
+            <div class="code-window-header">
+              <span>solo-team-claude-code-orchestration</span>
+              <span>2 files</span>
+            </div>
+            <pre><code>products/
+  혼자서-팀처럼-v1.0.pdf (약 90쪽)
+  templates-v1.0.zip
+
+<span class="code-accent">[PASS]</span> worker_watch.sh
+<span class="code-accent">[PASS]</span> CLAUDE.md.orchestration.md
+<span class="code-accent">[PASS]</span> task_spec_template.md</code></pre>
+          </div>
+          <figcaption>
+            전달 구성 요약
+            <span lang="en">Delivery layout overview</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="price-strip" aria-label="상품 요약">
+        <div class="price-item">
+          <span class="price-label">가격 (출시 할인코드 LAUNCH35 적용 가능)</span>
+          <strong class="price-value">USD 14</strong>
+        </div>
+        <div class="price-item">
+          <span class="price-label">구성</span>
+          <strong class="price-value">PDF + 템플릿 모음</strong>
+        </div>
+        <div class="price-item">
+          <span class="price-label">환불 보장</span>
+          <strong class="price-value">14일 이내</strong>
+        </div>
+      </section>
+
+      <section class="section" id="contents">
+        <div class="container">
+          <p class="eyebrow">핵심 내용</p>
+          <h2 class="section-title">개념서가 아닌 실제 운영 매뉴얼입니다</h2>
+          <p class="section-intro">
+            저자가 2026년 7~8월에 매일 워커 풀을 굴리며 겪은 사고(Stall, 계정 북마크 유실 등)와
+            이를 방어하기 위해 고친 규칙을 사고 기록 그대로 담았습니다.
+          </p>
+
+          <div class="service-list">
+            <article class="service-row">
+              <div>
+                <p class="service-kicker" lang="en">Role Separation</p>
+                <h3 class="service-name">역할 분리 설계</h3>
+              </div>
+              <p class="service-copy">
+                Claude 직접 vs 위임의 경계표. 우선순위 체인이 아닌 적성 배분을 통해 한도를 아끼는 법을 다룹니다.
+              </p>
+            </article>
+
+            <article class="service-row">
+              <div>
+                <p class="service-kicker" lang="en">Stall Detection</p>
+                <h3 class="service-name">Stall 감지와 감시 스크립트</h3>
+              </div>
+              <p class="service-copy">
+                승인 대기 중 멈춘 워커를 감지하는 쉘 스크립트와 완료 마커 판단 기준을 제공합니다.
+              </p>
+            </article>
+
+            <article class="service-row">
+              <div>
+                <p class="service-kicker" lang="en">Verification Gate</p>
+                <h3 class="service-name">검증 게이트와 적대적 리뷰</h3>
+              </div>
+              <p class="service-copy">
+                커밋 전 codex를 활용해 버그, 엣지케이스, 회귀를 잡는 프롬프트와 배포 판정 마커를 설명합니다.
+              </p>
+            </article>
+
+            <article class="service-row">
+              <div>
+                <p class="service-kicker" lang="en">Safety & Boundaries</p>
+                <h3 class="service-name">안전 경계 (브라우저·계정)</h3>
+              </div>
+              <p class="service-copy">
+                실제 Chrome 프로필 손실 사고를 예방하는 브라우저 격리법과 워커용 금지 목록 템플릿을 제공합니다.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-tinted" id="preview">
+        <div class="container">
+          <p class="eyebrow">결제 전에 확인</p>
+          <h2 class="section-title">무료 자료로 내용과 템플릿을 확인하세요</h2>
+          <p class="section-intro">
+            책의 0~2장과 핵심 템플릿 2종을 무료로 공개합니다. 
+            나머지 장과 모든 스크립트가 포함된 전체 패키지는 Gumroad에서 구매 가능합니다.
+          </p>
+
+          <div class="scope-split">
+            <div class="scope-column">
+              <h3>이런 분께 추천합니다</h3>
+              <ul>
+                <li>Claude Max 한도가 주 중반에 바닥나는 분</li>
+                <li>에이전트 하나가 오래 생각만 하는 걸 지켜본 적 있는 분</li>
+                <li>여러 AI를 동시에 활용해 처리량을 늘리고 싶은 분</li>
+              </ul>
+            </div>
+            <div class="scope-column scope-column-excluded">
+              <h3>대신하지 않는 것</h3>
+              <ul>
+                <li>Claude Code / Codex CLI 설치 및 기초 강좌 (이미 써본 분 대상)</li>
+                <li>특정 프레임워크 코딩 튜토리얼</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="action action-primary" href="https://github.com/claude-code-orchestration-ko">
+              GitHub에서 무료 자료 보기
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-compact">
+        <div class="container final-cta">
+          <div>
+            <p class="eyebrow eyebrow-inverse">PDF 전자책 + 템플릿 ZIP</p>
+            <h2>지금 전체 가이드를 다운로드하세요</h2>
+            <p>14일 이내 사유 불문 환불 보장. CLI 플래그가 바뀌면 개정판을 무료로 받으실 수 있습니다.</p>
+          </div>
+          <a
+            class="action action-primary"
+            href="[GUMROAD_URL]"
+            data-checkout-product="solo-team-claude-code-orchestration"
+            data-checkout-label="전체본 USD 14 구매"
+          >
+            USD 14 구매하기
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <p>Verified Automation Services</p>
+        <p lang="en">A field manual for multi-agent orchestration.</p>
+        <a class="text-link" href="./">전체 서비스 보기</a>
+      </div>
+    </footer>
+    <script src="checkout-links.js" defer></script>
+  </body>
+</html>
