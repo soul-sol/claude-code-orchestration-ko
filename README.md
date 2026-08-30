@@ -60,3 +60,7 @@ This repository contains the public introduction and free materials for the Kore
 - **Purchase Full Bundle:** **[https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration)**
 
 **License:** Public templates in this repository are under the MIT License. The book content itself is All rights reserved.
+
+## English edition
+
+**Solo, Like a Team — Claude Code Multi-Agent Orchestration in Practice** (165-page PDF + 8 English templates): https://lifestep1.gumroad.com/l/solo-like-a-team-claude-code-orchestration
