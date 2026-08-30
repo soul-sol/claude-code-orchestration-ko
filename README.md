@@ -36,7 +36,7 @@ Claude Max 한도가 금방 바닥나는 분, 에이전트 하나가 오래 생�
 
 본문 전체(약 90쪽)와 모든 템플릿 파일이 포함된 전체 패키지는 아래 링크에서 구매하실 수 있습니다. (환불 보장)
 
-👉 **[전체본 구매하기 (Gumroad)]([GUMROAD_URL])**
+👉 **[전체본 구매하기 (Gumroad)](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration)**
 
 ## 저자 소개
 
@@ -57,6 +57,6 @@ This repository contains the public introduction and free materials for the Kore
 
 - **Free Preview (Ch 0~2):** [`./preview/혼자서-팀처럼-미리보기.pdf`](./preview/혼자서-팀처럼-미리보기.pdf)
 - **Free Templates:** [Task Spec](./templates/task_spec_template.md) / [Safety Denylist](./templates/safety_denylist.md)
-- **Purchase Full Bundle:** **[[GUMROAD_URL]]([GUMROAD_URL])**
+- **Purchase Full Bundle:** **[https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration)**
 
 **License:** Public templates in this repository are under the MIT License. The book content itself is All rights reserved.
