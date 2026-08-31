@@ -64,3 +64,7 @@ This repository contains the public introduction and free materials for the Kore
 ## English edition
 
 **Solo, Like a Team — Claude Code Multi-Agent Orchestration in Practice** (165-page PDF + 8 English templates): https://lifestep1.gumroad.com/l/solo-like-a-team-claude-code-orchestration
+
+## Related: The Adversarial Review Prompt Pack
+
+25 prompts that attack AI-written code before you merge it — the chapter 6 review gate, expanded into a standalone pack (55-page PDF + 25 copy-paste prompt files, EN + 한국어 가이드): https://lifestep1.gumroad.com/l/adversarial-review-prompt-pack
