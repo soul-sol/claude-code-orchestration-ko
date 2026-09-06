@@ -90,6 +90,8 @@ Related: The Adversarial Review Prompt Pack
 - [domain-info-api](https://github.com/soul-sol/domain-info-api)
 - [email-validator-api](https://github.com/soul-sol/email-validator-api)
 - [qr-code-api](https://github.com/soul-sol/qr-code-api)
+- [Agent Ops for VS Code](https://github.com/soul-sol/vscode-agent-ops) - review prompts and agent rules in the Command Palette (VSIX install)
+- [Go Exec Format Doctor Action](https://github.com/soul-sol/go-exec-format-doctor) - CI gate for binary architecture mismatches
 
 The paid guide collection is available at [lifestep1.gumroad.com](https://lifestep1.gumroad.com).
 <!-- xlink:end -->
