@@ -76,6 +76,7 @@ Related: The Adversarial Review Prompt Pack
 - [agent-watch](https://github.com/soul-sol/agent-watch) — RUNNING/DONE/FAILED/STALL detection for background AI agents (MIT)
 - [ai-code-review-prompts](https://github.com/soul-sol/ai-code-review-prompts) — adversarial review prompts for AI-written code (MIT)
 
+
 <!-- xlink:start -->
 ## Related free tools
 
