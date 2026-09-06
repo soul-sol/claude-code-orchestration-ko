@@ -75,3 +75,21 @@ Related: The Adversarial Review Prompt Pack
 
 - [agent-watch](https://github.com/soul-sol/agent-watch) — RUNNING/DONE/FAILED/STALL detection for background AI agents (MIT)
 - [ai-code-review-prompts](https://github.com/soul-sol/ai-code-review-prompts) — adversarial review prompts for AI-written code (MIT)
+
+<!-- xlink:start -->
+## Related free tools
+
+- [XLSX Inspector](https://xlsx.lifestep.io) — check workbooks for macros, external links and hidden sheets
+- [DNS and SPF Check](https://dnscheck.lifestep.io) — records, SPF, DMARC and TLS expiry
+- [Email Validator](https://emailcheck.lifestep.io) — syntax, MX, disposable and role addresses
+- [QR Code Generator](https://qrcode.lifestep.io) — free PNG and SVG API, no signup
+- [agent-watch](https://github.com/soul-sol/agent-watch)
+- [ai-code-review-prompts](https://github.com/soul-sol/ai-code-review-prompts)
+- [claude-md-patterns](https://github.com/soul-sol/claude-md-patterns)
+- [xlsx-inspector-api](https://github.com/soul-sol/xlsx-inspector-api)
+- [domain-info-api](https://github.com/soul-sol/domain-info-api)
+- [email-validator-api](https://github.com/soul-sol/email-validator-api)
+- [qr-code-api](https://github.com/soul-sol/qr-code-api)
+
+The paid guide collection is available at [lifestep1.gumroad.com](https://lifestep1.gumroad.com).
+<!-- xlink:end -->
