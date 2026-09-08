@@ -45,24 +45,22 @@ if [[ "$exit_code" != "0" ]]; then
   exit 2
 fi
 
-if [[ "$kind" == "codex" ]]; then
-  if tail -n 40 "$log" | grep -q "tokens used"; then
-    echo "DONE $name — codex marker found"
-    exit 0
-  fi
-else
-  if tail -n 40 "$log" | grep -q "DONE"; then
-    echo "DONE $name — exit=0 and conclusion found; inspect result body"
-    tail -n 12 "$log"
-    exit 0
-  fi
-  if tail -n 40 "$log" | grep -q "FAILED"; then
-    echo "FAILED $name — worker reported failure"
-    tail -n 12 "$log"
-    exit 2
-  fi
+# ⛔ 완료 판정은 exit code 와 결과 본문으로만 한다. 마커 부재를 STALL 로 판정하지 않는다.
+# (2026-08-19 사고: 정상 완료한 GLM·agy 를 codex 전용 마커가 없다는 이유로 STALL 로 오판했다.)
+if tail -n 40 "$log" | grep -q "FAILED"; then
+  echo "FAILED $name — worker reported failure"
+  tail -n 12 "$log"
+  exit 2
 fi
 
-echo "STALL $name — process exited without a completion conclusion"
+# 마커는 보조 진단일 뿐이며 판정을 바꾸지 않는다.
+marker="none"
+if [[ "$kind" == "codex" ]] && tail -n 40 "$log" | grep -q "tokens used"; then
+  marker="codex 'tokens used' 관측"
+elif tail -n 40 "$log" | grep -q "DONE"; then
+  marker="결론 줄 관측"
+fi
+
+echo "DONE $name — exit=0; 결과 본문을 읽고 판단하십시오 (보조 진단: $marker)"
 tail -n 12 "$log"
-exit 2
+exit 0
