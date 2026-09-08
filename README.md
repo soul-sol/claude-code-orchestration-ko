@@ -63,7 +63,7 @@ This repository contains the public introduction and free materials for the Kore
 
 ## English edition
 
-**Solo, Like a Team — Claude Code Multi-Agent Orchestration in Practice** (165-page PDF + 8 English templates): https://lifestep1.gumroad.com/l/solo-like-a-team-claude-code-orchestration
+**Solo, Like a Team — Claude Code Multi-Agent Orchestration in Practice** (159-page PDF + 8 English templates): https://lifestep1.gumroad.com/l/solo-like-a-team-claude-code-orchestration
 
 ## Free review prompts: https://github.com/soul-sol/ai-code-review-prompts
 
