@@ -36,7 +36,7 @@ Claude Max 한도가 금방 바닥나는 분, 에이전트 하나가 오래 생�
 
 본문 전체(약 90쪽)와 모든 템플릿 파일이 포함된 전체 패키지는 아래 링크에서 구매하실 수 있습니다. (환불 보장)
 
-👉 **[전체본 구매하기 (Gumroad)](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration)**
+👉 **[전체본 구매하기 (Gumroad)](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration?utm_source=github&utm_medium=readme&utm_campaign=claude-code-orchestration-ko)**
 
 ## 저자 소개
 
@@ -57,19 +57,19 @@ This repository contains the public introduction and free materials for the Kore
 
 - **Free Preview (Ch 0~2):** [`./preview/혼자서-팀처럼-미리보기.pdf`](./preview/혼자서-팀처럼-미리보기.pdf)
 - **Free Templates:** [Task Spec](./templates/task_spec_template.md) / [Safety Denylist](./templates/safety_denylist.md)
-- **Purchase Full Bundle:** **[https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration)**
+- **Purchase Full Bundle:** **[https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration?utm_source=github&utm_medium=readme&utm_campaign=claude-code-orchestration-ko](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration?utm_source=github&utm_medium=readme&utm_campaign=claude-code-orchestration-ko)**
 
 **License:** Public templates in this repository are under the MIT License. The book content itself is All rights reserved.
 
 ## English edition
 
-**Solo, Like a Team — Claude Code Multi-Agent Orchestration in Practice** (159-page PDF + 8 English templates): https://lifestep1.gumroad.com/l/solo-like-a-team-claude-code-orchestration
+**Solo, Like a Team — Claude Code Multi-Agent Orchestration in Practice** (159-page PDF + 8 English templates): https://lifestep1.gumroad.com/l/solo-like-a-team-claude-code-orchestration?utm_source=github&utm_medium=readme&utm_campaign=claude-code-orchestration-ko
 
 ## Free review prompts: https://github.com/soul-sol/ai-code-review-prompts
 
 Related: The Adversarial Review Prompt Pack
 
-25 prompts that attack AI-written code before you merge it — the chapter 6 review gate, expanded into a standalone pack (55-page PDF + 25 copy-paste prompt files, EN + 한국어 가이드): https://lifestep1.gumroad.com/l/adversarial-review-prompt-pack
+25 prompts that attack AI-written code before you merge it — the chapter 6 review gate, expanded into a standalone pack (55-page PDF + 25 copy-paste prompt files, EN + 한국어 가이드): https://lifestep1.gumroad.com/l/adversarial-review-prompt-pack?utm_source=github&utm_medium=readme&utm_campaign=claude-code-orchestration-ko
 
 ## Tools
 
