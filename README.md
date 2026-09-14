@@ -34,7 +34,7 @@ Claude Max 한도가 금방 바닥나는 분, 에이전트 하나가 오래 생�
 
 ## 전체본 구매하기
 
-본문 전체(약 90쪽)와 모든 템플릿 파일이 포함된 전체 패키지는 아래 링크에서 구매하실 수 있습니다. (환불 보장)
+본문 전체(약 143쪽)와 모든 템플릿 파일이 포함된 전체 패키지는 아래 링크에서 구매하실 수 있습니다. (환불 보장)
 
 👉 **[전체본 구매하기 (Gumroad)](https://lifestep1.gumroad.com/l/solo-team-claude-code-orchestration?utm_source=github&utm_medium=readme&utm_campaign=claude-code-orchestration-ko)**
 
